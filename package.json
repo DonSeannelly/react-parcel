@@ -1,0 +1,25 @@
+{
+  "name": "react-parcel",
+  "version": "0.0.0",
+  "description": "A simple react app using the parcel bundler.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/parcel index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DonSeannelly/react-parcel.git"
+  },
+  "author": "Sean Donnelly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DonSeannelly/react-parcel/issues"
+  },
+  "homepage": "https://github.com/DonSeannelly/react-parcel#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.6.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
