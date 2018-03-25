@@ -4,7 +4,7 @@
   "description": "A simple react app using the parcel bundler.",
   "main": "index.js",
   "scripts": {
-    "start": "node_modules/.bin/parcel index.html",
+    "start": "node_modules/.bin/parcel src/index.html --open",
     "test": "jest"
   },
   "repository": {
@@ -18,8 +18,14 @@
   },
   "homepage": "https://github.com/DonSeannelly/react-parcel#readme",
   "dependencies": {
-    "parcel-bundler": "^1.6.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.41",
+    "@types/react-dom": "^16.0.4",
+    "node-sass": "^4.8.3",
+    "parcel-bundler": "^1.6.2",
+    "typescript": "^2.7.2"
   }
 }
