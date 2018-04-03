@@ -4,6 +4,7 @@
   "description": "A simple react app using the parcel bundler.",
   "main": "index.js",
   "scripts": {
+    "build": "node_modules/.bin/parcel build --no-cache src/index.html",
     "start": "node_modules/.bin/parcel src/index.html --open",
     "test": "node_modules/.bin/jest --verbose"
   },
